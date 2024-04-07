@@ -6,8 +6,10 @@ import pandas as pd
 from geopy.distance import geodesic
 from datetime import datetime, timedelta
 import json
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Set the path to the Tesseract OCR executable
 # pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
@@ -71,4 +73,4 @@ def hello_world():
     return "<p>Hello, World!</p>"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=True)
