@@ -40,9 +40,9 @@ To run SmartScanner locally, follow these steps:
    ```
 
 3. Start the development server:
-    ```bash
-    flask run
-    ```
+   ```bash
+   flask run
+   ```
 
 ### Starting the frontend
 
@@ -65,8 +65,8 @@ To run SmartScanner locally, follow these steps:
    ```
 
 ## Demo Image
-![App Flow](frontend/images/e2.png)
 
+![App Flow](frontend/images/e2.png)
 
 ## Contributing
 
@@ -74,4 +74,4 @@ We welcome contributions from the community to enhance SmartScanner's functional
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://www.mit.edu/~amini/LICENSE.md) file for details.
